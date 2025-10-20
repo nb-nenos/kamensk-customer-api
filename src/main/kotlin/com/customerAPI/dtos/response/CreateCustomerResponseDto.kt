@@ -1,5 +1,6 @@
 package com.customerAPI.dtos.response
 
 data class CreateCustomerResponseDto(
-    val customerId: String
+    val customerId: String,
+    val localStamp: String
 )
